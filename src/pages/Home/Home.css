@@ -1,0 +1,19 @@
+/* .ion-page > .container {
+	display: flex;
+	justify-content: center;
+}
+
+.ion-page > .container > .container-content {
+	width: 100%;
+	max-width: 1024px;
+} */
+
+ion-content {
+	--padding-top: 10px;
+}
+
+.content-container {
+	height: 100%;
+	padding: 0 20px;
+	overflow-x: auto;
+}

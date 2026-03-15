@@ -1,0 +1,23 @@
+.avatar-group {
+	display: flex;
+	align-items: center;
+}
+
+.avatar-group ion-avatar {
+	width: 30px;
+	height: 30px;
+	margin-left: -7px;
+	border: 2px solid white;
+}
+
+.avatar-group ion-avatar .avatar-excess-count {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: oklch(54.6% 0.245 262.881);
+	border-radius: 50%;
+	color: white;
+	font-size: 12px;
+}

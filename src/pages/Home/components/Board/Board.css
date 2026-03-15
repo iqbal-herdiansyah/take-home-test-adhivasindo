@@ -1,0 +1,122 @@
+.board-container {
+	display: flex;
+	gap: 20px;
+	min-height: 100%;
+}
+
+.board-column-container {
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.board-column-container > .column-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.board-column-container > .column-header > ion-title {
+	padding: 0;
+	font-size: var(--ion-text-lg);
+	font-weight: 700;
+	flex: 0;
+}
+
+.board-column-container > .column-header > ion-button {
+	width: 25px;
+	height: 25px;
+	min-height: 0px;
+}
+
+.board-column-container > .column-header > ion-button::part(native) {
+	width: 25px;
+	height: 25px;
+	min-height: 0px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	background-color: var(--ion-color-link-water);
+	color: var(--ion-color-azure-radiance);
+}
+
+.board-column-container > .column-header > ion-button > ion-icon {
+	margin: 0px;
+	font-size: 18px;
+}
+
+.tasks-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1;
+}
+
+.tasks-container ion-card {
+	margin: 0;
+	box-shadow: none;
+	background-color: var(--ion-color-catskill-white);
+	border-radius: 12px;
+}
+
+.tasks-container ion-card ion-card-header {
+	gap: 10px;
+}
+
+.tasks-container ion-card ion-card-title {
+	font-size: var(--ion-text-sm);
+}
+
+.tasks-container ion-card ion-card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.task-due-date ion-icon {
+	width: 14px;
+	height: 14px;
+}
+
+.task-card .task-footer {
+	display: flex;
+	align-items: center;
+}
+
+.task-card .task-footer-primary {
+	flex: 1;
+}
+
+.task-cover-image {
+	width: 100%;
+	height: 150px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.task-cover-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.task-footer-primary {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.task-footer-primary .checklist {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}
+
+.task-footer-primary .attachment-section {
+	display: flex;
+	align-items: center;
+	gap: 2px;
+}

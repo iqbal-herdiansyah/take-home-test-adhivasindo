@@ -1,0 +1,41 @@
+[
+	{
+		"id": "0e8a56fb-cd66-4352-8fa6-df267550dc71",
+		"title": "Card 1",
+		"description": "Contoh card 1",
+		"assignees": [],
+		"due_date": "",
+		"label": "Feature",
+		"priority": "High",
+		"checklist_items": [],
+		"attachment_files": [],
+		"column_id": "0a97330a-4774-4251-9e10-c0966bf96deb",
+		"order": 1
+	},
+	{
+		"id": "d0e36067-f206-4592-8c18-acdcb2837390",
+		"title": "Card 2",
+		"description": "Contoh card 2",
+		"assignees": [],
+		"due_date": "",
+		"label": "Bug",
+		"priority": "Medium",
+		"checklist_items": [],
+		"attachment_files": [],
+		"column_id": "0a97330a-4774-4251-9e10-c0966bf96deb",
+		"order": 2
+	},
+	{
+		"id": "dc784e65-1f29-4697-ba11-6e1bc6caf317",
+		"title": "Card 3",
+		"description": "Contoh card 3",
+		"assignees": [],
+		"due_date": "",
+		"label": "Bug",
+		"priority": "Medium",
+		"checklist_items": [],
+		"attachment_files": [],
+		"column_id": "f488af6c-b3cc-406a-add8-36d383184410",
+		"order": 3
+	}
+]

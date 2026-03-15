@@ -1,0 +1,22 @@
+[
+	{
+		"id": "0a97330a-4774-4251-9e10-c0966bf96deb",
+		"title": "To Do"
+	},
+	{
+		"id": "f488af6c-b3cc-406a-add8-36d383184410",
+		"title": "Doing"
+	},
+	{
+		"id": "25c0f549-45b0-439c-86c4-d3f04142f126",
+		"title": "Review"
+	},
+	{
+		"id": "459e3857-37f1-4b1b-885e-7688e17f04f8",
+		"title": "Done"
+	},
+	{
+		"id": "08477c38-6b0c-4580-a007-ce20d0de9f6a",
+		"title": "Rework"
+	}
+]

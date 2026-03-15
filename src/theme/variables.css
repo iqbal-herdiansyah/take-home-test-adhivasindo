@@ -1,2 +1,73 @@
 /* For information on how to create your own theme, please refer to:
 http://ionicframework.com/docs/theming/ */
+
+:root {
+	--ion-color-base: #ffffff;
+
+	--ion-color-primary: #2b7fff;
+	--ion-color-primary-rgb: 43, 127, 255;
+	--ion-color-primary-contrast: #193cb8;
+	--ion-color-primary-contrast-rgb: 0, 0, 0;
+	--ion-color-primary-shade: #2670e0;
+	--ion-color-primary-tint: #408cff;
+
+	--ion-color-medium: #e2e8f0;
+	--ion-color-medium-rgb: 226, 232, 240;
+	--ion-color-medium-contrast: #1e293b;
+	--ion-color-medium-contrast-rgb: 30, 41, 59;
+	--ion-color-medium-shade: #c7ccd3;
+	--ion-color-medium-tint: #e5ebf2;
+
+	--ion-color-danger: #e3d2d8;
+	--ion-color-danger-rgb: 227, 210, 216;
+	--ion-color-danger-contrast: #903d43;
+	--ion-color-danger-contrast-rgb: 0, 0, 0;
+	--ion-color-danger-shade: #c8b9be;
+	--ion-color-danger-tint: #e6d7dc;
+
+	--ion-color-warning: #fef9c2;
+	--ion-color-warning-rgb: 254, 249, 194;
+	--ion-color-warning-contrast: #a65f00;
+	--ion-color-warning-contrast-rgb: 0, 0, 0;
+	--ion-color-warning-shade: #e0dbab;
+	--ion-color-warning-tint: #fefac8;
+
+	--ion-color-sky: #dff2fe;
+	--ion-color-sky-rgb: 223, 242, 254;
+	--ion-color-sky-contrast: #1e293b;
+	--ion-color-sky-contrast-rgb: 30, 41, 59;
+	--ion-color-sky-shade: #c4d5e0;
+	--ion-color-sky-tint: #e2f3fe;
+
+	--ion-color-catskill-white: #eaf2f5;
+	--ion-color-catskill-white-rgb: 234, 242, 245;
+	--ion-color-catskill-white-contrast: #000000;
+	--ion-color-catskill-white-contrast-rgb: 0, 0, 0;
+	--ion-color-catskill-white-shade: #ced5d8;
+	--ion-color-catskill-white-tint: #ecf3f6;
+
+	--ion-color-link-water: #cfe4f2;
+	--ion-color-link-water-rgb: 207, 228, 242;
+	--ion-color-link-water-contrast: #000000;
+	--ion-color-link-water-contrast-rgb: 0, 0, 0;
+	--ion-color-link-water-shade: #b6c9d5;
+	--ion-color-link-water-tint: #d4e7f3;
+
+	--ion-color-azure-radiance: #3082ee;
+	--ion-color-azure-radiance-rgb: 48, 130, 238;
+	--ion-color-azure-radiance-contrast: #000000;
+	--ion-color-azure-radiance-contrast-rgb: 0, 0, 0;
+	--ion-color-azure-radiance-shade: #2a72d1;
+	--ion-color-azure-radiance-tint: #458ff0;
+
+	--ion-color-botticelli: #cce7f0;
+	--ion-color-botticelli-rgb: 204, 231, 240;
+	--ion-color-botticelli-contrast: #2c829d;
+	--ion-color-botticelli-contrast-rgb: 0, 0, 0;
+	--ion-color-botticelli-shade: #b4cbd3;
+	--ion-color-botticelli-tint: #d1e9f2;
+
+	--ion-text-xs: 10px;
+	--ion-text-sm: 12px;
+	--ion-text-lg: 18px;
+}

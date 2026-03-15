@@ -1,0 +1,348 @@
+.add-task-modal {
+	--box-shadow: none;
+}
+
+.add-task-modal::part(content) {
+	width: 100dvw;
+	height: 100dvh;
+}
+
+.create-task-modal {
+	width: 100%;
+	height: 100%;
+}
+
+.create-task-modal-content {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.create-task-modal-left {
+	flex: 1;
+	padding: 20px 0 0 0;
+}
+
+.create-task-modal-right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.create-task-modal-right-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	overflow-y: auto;
+	padding: 30px 0 0 0;
+}
+
+.create-task-modal-actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 5px;
+	padding: 0 20px 10px 0;
+}
+
+.create-task-modal-save-button {
+	color: white !important;
+}
+
+.create-task-modal .input-field {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 0 20px;
+}
+
+.create-task-modal-right-content .input-label {
+	font-size: var(--ion-text-lg);
+	font-weight: 700;
+}
+
+.create-task-modal-right-content .input-area {
+	background-color: var(--ion-color-medium);
+	color: gray;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	padding: 10px;
+}
+
+.create-task-modal-right-content hr {
+	width: 100%;
+	background-color: var(--ion-color-catskill-white);
+	padding: 1px 0 0 0;
+}
+
+.input-checklist-progress {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	margin-bottom: 10px;
+}
+
+.input-cover-image-field {
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 20px;
+}
+
+.input-cover-image-field ion-icon {
+	font-size: 100px;
+	color: var(--ion-color-medium);
+}
+
+.create-task-modal-left-content hr {
+	width: 100%;
+	background-color: var(--ion-color-catskill-white);
+	padding: 1px 0 0 0;
+}
+
+.primary-field-section {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+}
+
+.create-task-modal-left .title-field > input {
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	font-size: var(--ion-text-lg);
+	font-weight: 700;
+}
+
+.create-task-modal-left .primary-task-fields {
+	display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+	gap: 20px;
+}
+
+.primary-task-fields .field {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.primary-task-fields .field ion-item {
+	--inner-padding-start: 0;
+	/* --inner-padding-end: 0; */
+	--padding-start: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.primary-task-fields .field ion-item::part(native) {
+	background-color: var(--ion-color-medium);
+}
+
+.primary-task-fields .assignee-field > div {
+	display: flex;
+}
+
+.primary-task-fields .assignee-field > div ion-avatar {
+	width: 40px;
+	height: 40px;
+}
+
+.primary-task-fields .assignee-field > ion-button {
+	align-self: flex-start;
+}
+
+.primary-task-fields label {
+	color: gray;
+	font-weight: 600;
+}
+
+.primary-task-fields .due-date-field ion-datetime-button {
+	width: 100%;
+	height: 100%;
+}
+
+.primary-task-fields .due-date-field ion-datetime-button::part(native) {
+	width: 100%;
+	height: 100%;
+	text-align: start;
+	background-color: transparent !important;
+	color: gray;
+}
+
+.due-date-input-modal::part(backdrop) {
+	opacity: 0.4 !important;
+}
+
+.primary-task-fields .field ion-select {
+	--border-style: none;
+	--highlight-height: 0;
+	--border-width: 0;
+}
+
+.primary-task-fields .field ion-select::part(wrapper) {
+	border-radius: 10px;
+	background-color: var(--ion-color-medium);
+	color: gray;
+}
+
+.primary-task-fields .field ion-select::part(inner) {
+	width: 100%;
+	justify-content: space-between;
+}
+
+.assignees-input {
+	display: flex;
+}
+
+.create-new-checklist-section {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) repeat(2, minmax(0, 30px));
+	align-items: center;
+	gap: 5px;
+}
+
+.create-new-checklist-section input {
+	flex: 1;
+	background-color: var(--ion-color-medium);
+	color: gray;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+	padding: 10px;
+}
+
+.create-new-checklist-section ion-button {
+	width: 30px;
+	height: 30px;
+	min-width: 0px;
+	min-height: 0px;
+	color: white;
+	margin: 0px;
+}
+
+.create-new-checklist-section ion-button::part(native) {
+	width: 30px;
+	height: 30px;
+	min-height: 0px;
+	border-radius: 10px;
+}
+
+.checklist-field .checklists {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.checklist-field .checklists ion-checkbox {
+	width: 100%;
+}
+
+.checklist-field .checklists ion-checkbox::part(container) {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+.checklist-item {
+	display: flex;
+}
+
+.checklist-item ion-button {
+	width: 30px;
+	height: 30px;
+	min-width: 0px;
+	min-height: 0px;
+	color: white;
+	margin: 0px;
+}
+
+.checklist-item ion-button::part(native) {
+	width: 30px;
+	height: 30px;
+	min-height: 0px;
+	border-radius: 10px;
+}
+
+.cover_image_preview {
+	width: 100%;
+	height: 100%;
+}
+
+.cover_image_preview img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.attachments-field > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	background-color: var(--ion-color-medium);
+	border-radius: 10px;
+	border: 2px dashed rgba(128, 128, 128, 0.216);
+	padding: 20px;
+	text-align: center;
+}
+
+.attachments-field > div > ion-icon {
+	font-size: 50px;
+}
+
+.attachments-field > div > p > span:nth-child(1) {
+	color: gray;
+}
+
+.attachments-field > div > p > span:nth-child(2) {
+	color: var(--ion-color-primary);
+}
+
+@media (width >= 64rem) {
+	.create-task-modal-content {
+		flex-direction: row;
+		max-width: 1536px;
+		padding: 20px;
+		gap: 40px;
+		margin: 0 auto;
+	}
+
+	.create-task-modal-left .primary-task-fields {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+
+	.attachments-field > div {
+		flex-direction: row;
+	}
+
+	.attachments-field > div > ion-icon {
+		font-size: 20px;
+	}
+
+	.create-task-modal-actions {
+		padding: 0;
+	}
+
+	.task-toast-success::part(wrapper) {
+		width: fit-content;
+		right: 0;
+		transform: translateY(0);
+		inset-inline-start: auto;
+		inset-inline-end: 0;
+		margin: 0 20px 20px 0;
+		background-color: oklch(96.2% 0.044 156.743);
+		color: oklch(52.7% 0.154 150.069);
+	}
+
+	.task-toast-success::part(container) {
+		width: fit-content;
+	}
+}

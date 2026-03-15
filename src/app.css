@@ -1,0 +1,62 @@
+body {
+	background-color: var(--ion-color-base);
+}
+
+ion-button {
+	text-transform: none;
+	display: flex;
+}
+
+ion-button::part(native) {
+	box-shadow: none;
+}
+
+ion-button.button-small {
+	font-size: var(--ion-text-sm);
+}
+
+ion-button.button-small ion-icon {
+	font-size: var(--ion-text-sm);
+}
+
+ion-input input {
+	font-size: var(--ion-text-sm) !important;
+}
+
+ion-badge {
+	background-color: var(--ion-color-link-water);
+	border: 1px solid var(--ion-color-azure-radiance);
+	border-radius: 1000px;
+	color: var(--ion-color-azure-radiance);
+	font-size: var(--ion-text-sm);
+	font-weight: 600;
+	padding: 4px 10px;
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+ion-badge.ion-color-secondary {
+	background-color: var(--ion-color-botticelli);
+	color: var(--ion-color-botticelli-contrast);
+	border-color: var(--ion-color-botticelli-contrast);
+}
+
+ion-badge.ion-color-danger {
+	background-color: var(--ion-color-danger);
+	color: var(--ion-color-danger-contrast);
+	border-color: var(--ion-color-danger-contrast);
+}
+
+ion-badge.ion-color-warning {
+	background-color: var(--ion-color-warning);
+	color: var(--ion-color-warning-contrast);
+	border-color: var(--ion-color-warning-contrast);
+}
+
+ion-badge.ion-color-undefined {
+	background-color: var(--ion-color-medium);
+	color: var(--ion-color-medium-contrast);
+	border-color: var(--ion-color-medium-contrast);
+}

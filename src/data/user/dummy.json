@@ -1,0 +1,32 @@
+[
+	{
+		"id": "408227fa-49f7-4d02-beb7-e3039b06a11c",
+		"name": "Iqbal Herdiansyah",
+		"image": "/images/avatars/iqbal-herdiansyah.png"
+	},
+	{
+		"id": "c14c7206-ab13-4c03-a747-5b4a9b22788b",
+		"name": "Nadia Fitri",
+		"image": "/images/avatars/nadia-fitri.png"
+	},
+	{
+		"id": "4451984f-4571-4b11-90b4-13d0fdb6f6ff",
+		"name": "John Doe",
+		"image": "/images/avatars/john-doe.png"
+	},
+	{
+		"id": "1bf047d8-1863-452e-9294-272d33e92c8d",
+		"name": "Bimo Kusuma",
+		"image": "/images/avatars/bimo-kusuma.png"
+	},
+	{
+		"id": "a2e9b1d4-7c3e-4f8a-92b1-5d6c7e8f9a0b",
+		"name": "Siti Sarah",
+		"image": "/images/avatars/siti-sarah.png"
+	},
+	{
+		"id": "f8d7e6c5-b4a3-4d2c-8e1f-0g9h8i7j6k5l",
+		"name": "Aris Setiawan",
+		"image": "/images/avatars/aris-setiawan.png"
+	}
+]
