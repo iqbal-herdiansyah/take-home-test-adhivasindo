@@ -1,0 +1,7 @@
+{
+  "name": "adhivasindo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
